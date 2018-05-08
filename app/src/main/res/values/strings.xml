@@ -6,6 +6,10 @@
     <string name="detail_place_of_origin_label">Place of origin:</string>
     <string name="detail_description_label">Description:</string>
     <string name="detail_ingredients_label">Ingredients:</string>
+    <string name="detail_aka_marker">AKA</string>
+    <string name="detail_pOo_marker">origin</string>
+    <string name="detail_desc_marker">desc</string>
+    <string name="detail_ingred_marker">ingred</string>
 
     <!-- Content descriptions-->
     <string name="sandwich_picture_content_description">Sandwich picture</string>

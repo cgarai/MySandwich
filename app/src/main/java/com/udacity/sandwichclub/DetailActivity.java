@@ -82,6 +82,8 @@ public class DetailActivity extends AppCompatActivity {
             ingredientString.append(ingredient);
             ingredientString.append(", ");
         }
+        int trimIdx = ingredientString.length() -1;
+        ingredientString.delete(trimIdx-1,trimIdx);
         ingredientsTv.setText(ingredientString);
 
 
@@ -90,6 +92,8 @@ public class DetailActivity extends AppCompatActivity {
             akaString.append(aka);
             akaString.append(", ");
         }
+        trimIdx = akaString.length() -1;
+        akaString.delete(trimIdx-1,trimIdx);
         alsoKnownAsTv.setText(akaString);
 
         TextView originTv = findViewById(R.id.origin_tv);
